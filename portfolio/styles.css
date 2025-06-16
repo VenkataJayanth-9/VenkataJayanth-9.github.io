@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #424242;
+}
+
+.nav-bar{
+    padding: 15px;
+    height: 30px;
+    background-color: #9EC6F3;
+    display: flex;
+    justify-content: space-between;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.nav-bar h2{
+    cursor: pointer;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.nav-bar li{
+    display: flex;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.nav-bar li:hover{
+    color: black;
+    font-size: large;
+}
+
+.body{
+    display: flex;
+}
+
+.body .profile-pic{
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.body .intro{
+    padding: 20px;
+}
+
+.services{
+    background-color: #9EC6F3;
+    padding: 10px;
+}
+
+.services-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.services-list-items{
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 10px;
+}
