@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* ul li{
+    display: inline;
+} */
+
+ul li {
+    display: inline-block;
+    width: 100px;
+}
+
