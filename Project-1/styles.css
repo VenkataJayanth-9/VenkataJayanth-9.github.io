@@ -4,6 +4,7 @@
 }
 
 .container div {
+    display: grid;
     align-items: center;
     border: 1px solid gray;
     padding: 10px;
