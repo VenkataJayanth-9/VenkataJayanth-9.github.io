@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>Project-2</h1>
-</body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="nav-bar">
+      <img class="logo" src="./images/logo.png" alt="logo" />
+      <div class="search">
+        <select title="categeory-items" id="drop-items" name="drop-items">
+            <option value="Shop by Department">All categories</option>
+            <option value="Vegitables">Vegitable</option>
+            <option value="Fruits">fruits</option>
+            <option value="Dry-Fruits">Dry-fruits</option>
+        </select>
+        <input
+          type="search"
+          placeholder="Search for more than 20,000 products"
+        />
+        <img src="./images//search-interface-symbol.png" alt="search-icon" />
+      </div>
+      <div class="support-info">
+        <p>For Support?</p>
+        <p><b>+980-3498089</b></p>
+      </div>
+      <div class="icons">
+        <img src="./images/user.png" alt="user-logo" class="profile-icon" />
+        <img src="./images/favorite.png" alt="fav-logo" class="fav-icon" />
+      </div>
+      <div class="cart-info">
+        <p>Your Cart</p>
+        <p><b>₹999</b></p>  
+      </div>
+    </div>
+    <div class="menu">
+        <select title="menu-items" id="drop-items" name="drop-items">
+            <option value="Shop by Department">Shop by department</option>
+            <option value="Vegitables">Vegitable</option>
+            <option value="Fruits">fruits</option>
+            <option value="Dry-Fruits">Dry-fruits</option>
+        </select>
+        <p>Women</p>
+        <p>Men</p>
+        <p>Kids</p>
+        <p>Accessories</p>
+        <p>Pages</p>
+        <p>Brands</p>
+        <p>Sale</p>
+        <p>Blog</p>
+    </div>
+  </body>
 </html>
